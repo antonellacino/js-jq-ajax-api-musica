@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #2E3A46;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 250px;
+}
+
+body {
+    background-color: #1E2D3B;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    width: 20%;
+    text-align: center;
+    background-color: #2E3A46;
+    margin: 10px;
+    min-height: 270px;
+    padding: 10px;
+}
+
+.cover img {
+    width: 100px;
+    height: 150px;
+}
+
+.details h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.details p {
+    color: gray;
+}
